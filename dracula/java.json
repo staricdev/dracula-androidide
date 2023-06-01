@@ -1,0 +1,87 @@
+{
+  "types": [
+    "java"
+  ],
+  "local.scopes": [
+    "scope"
+  ],
+  "local.scopes.members": [
+    "scope.members"
+  ],
+  "local.definitions": [
+    "definition.var",
+    "definition.field"
+  ],
+  "local.references": [
+    "reference"
+  ],
+  "styles": {
+    "comment": {
+      "fg": "@comment",
+      "italic": true
+    },
+    "keyword": {
+      "fg": "@keyword",
+      "bold": true
+    },
+    "string": {
+      "fg": "@string",
+      "completion": false
+    },
+    "variable.builtin": {
+      "fg": "@keyword",
+      "bold": true
+    },
+    "function.builtin": {
+      "fg": "@keyword",
+      "bold": true
+    },
+    "type.builtin": {
+      "fg": "@keyword",
+      "bold": true
+    },
+    "constant": {
+      "fg": "@constant",
+      "bold": true
+    },
+    "number": {
+      "fg": "@number"
+    },
+    "variable": {
+      "fg": "@onSurface"
+    },
+    "constant.builtin": {
+      "fg": "@keyword"
+    },
+    "type": {
+      "fg": "@type"
+    },
+    "attribute": {
+      "fg": "@type"
+    },
+    "function.declaration": {
+      "fg": "@func.decl"
+    },
+    "function.invocation": {
+      "fg": "@func.call"
+    },
+    "variable.field": {
+      "fg": "@field"
+    },
+    "operator": {
+      "fg": "@operator"
+    },
+    "package.decl": {
+      "fg": "@java.package"
+    },
+    "import.package": {
+      "fg": "@java.package"
+    },
+    "import.type": {
+      "fg": "@type"
+    },
+    "import.member": {
+      "fg": "@field"
+    }
+  }
+}

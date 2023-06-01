@@ -1,0 +1,4 @@
+scheme.name=Dracula
+scheme.version=1
+scheme.isDark=true
+scheme.file=dracula.json

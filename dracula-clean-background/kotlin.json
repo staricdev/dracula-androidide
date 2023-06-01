@@ -1,0 +1,106 @@
+{
+  "types": [
+    "kt",
+    "kts"
+  ],
+  "local.scopes": [
+    "scope"
+  ],
+  "local.scopes.members": [
+    "scope.members"
+  ],
+  "local.definitions": [
+    "definition.namespace",
+    "definition.import",
+    "definition.function",
+    "definition.method",
+    "definition.parameter",
+    "definition.field"
+  ],
+  "local.references": [
+    "reference"
+  ],
+  "styles": {
+    "preproc": {
+      "fg": "@kt.preproc",
+      "italic": true,
+      "bold": true
+    },
+    "comment": {
+      "fg": "@comment",
+      "italic": true
+    },
+    "keyword": {
+      "fg": "@keyword",
+      "bold": true
+    },
+    "type.qualifier": {
+      "fg": "@keyword",
+      "bold": true
+    },
+    "string": {
+      "fg": "@string",
+      "completion": false
+    },
+    "string.regex": {
+      "fg": "@string",
+      "completion": false
+    },
+    "string.escape": {
+      "fg": "@kt.string.esc",
+      "completion": false
+    },
+    "variable.builtin": {
+      "fg": "@keyword",
+      "bold": true
+    },
+    "function.builtin": {
+      "fg": "@func.call",
+      "italic": true
+    },
+    "type.builtin": {
+      "fg": "@keyword",
+      "bold": true
+    },
+    "constant": {
+      "fg": "@constant",
+      "bold": true
+    },
+    "number": {
+      "fg": "@number"
+    },
+    "variable": {
+      "fg": "@onSurface"
+    },
+    "parameter": {
+      "fg": "@variable"
+    },
+    "constant.builtin": {
+      "fg": "@keyword"
+    },
+    "type": {
+      "fg": "@type"
+    },
+    "attribute": {
+      "fg": "@type"
+    },
+    "function.declaration": {
+      "fg": "@func.decl"
+    },
+    "function.invocation": {
+      "fg": "@func.call"
+    },
+    "operator": {
+      "fg": "@operator"
+    },
+    "punctuation.special": {
+      "fg": "@kt.punctuation.special"
+    },
+    "constructor": {
+      "fg": "@kt.constructor"
+    },
+    "property": {
+      "fg": "@kt.property"
+    }
+  }
+}

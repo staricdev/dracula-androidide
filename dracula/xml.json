@@ -1,0 +1,49 @@
+{
+  "types": ["xml"],
+  "styles": {
+    "xml_decl": {
+      "fg": "@operator",
+      "bold": true
+    },
+    "element.tag": {
+      "fg": "@xml.tag",
+      "bold": true
+    },
+    "ns_declarator": {
+      "fg": "@keyword",
+      "bold": true
+    },
+    "xml.ref": {
+      "fg": "@xml.ref",
+      "italic": true
+    },
+    "comment": {
+      "fg": "@comment",
+      "italic": true
+    },
+    "operator": {
+      "fg": "@operator"
+    },
+    "cdata.start": {
+      "fg": "@xml.tag"
+    },
+    "cdata.end": {
+      "fg": "@xml.tag"
+    },
+    "cdata": {
+      "fg": "@onSurface"
+    },
+    "xmlns.prefix": {
+      "fg": "@ns_prefix"
+    },
+    "attr.prefix": {
+      "fg": "@ns_prefix"
+    },
+    "attr.name": {
+      "fg": "@onSurface"
+    },
+    "attr.value": {
+      "fg": "@string"
+    }
+  }
+}
